@@ -4,7 +4,7 @@ using System;
 
 namespace ConsoleApp6
 {
-    public class People
+    internal class People
     {
         // fields
         private int _age;

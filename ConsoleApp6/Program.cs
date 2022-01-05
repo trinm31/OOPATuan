@@ -25,6 +25,9 @@ namespace ConsoleApp6
             Console.WriteLine($"My Name is {Tri.Name} and {Tri.Age}");
 
             int age = 3;
+
+            // Cha cha = new Cha();
+            // cha.Age;
         }
     }
 }
