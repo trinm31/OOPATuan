@@ -22,5 +22,31 @@ namespace OOP
         {
             return Width * Height*Deep;
         }
+        
+        //Overload
+        public void Resize(int sameSize)
+        {
+            Width = sameSize;
+            Height = sameSize;
+        }
+        
+        public void Resize(int width, int height)
+        {
+            Width = width;
+            Height = height;
+        }
+        
+        public void Resize(double width, double height)
+        {
+            Width = (int)width;
+            Height = (int)height;
+        }
+        
+        //overwriting
+
+        public override string Test()
+        {
+            return base.Test() + "But now it is modified by rectangle classs";
+        }
     }
 }

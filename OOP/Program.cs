@@ -12,5 +12,6 @@ public class Program
         rectangle.Height = 6;
         Console.WriteLine($"Area la {rectangle.GetArea()}");
         Console.WriteLine($"The Tich la {rectangle.GetTheTich()}");
+        Console.WriteLine(rectangle.Test());
     }
 }
